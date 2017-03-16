@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+ReactDOM.render(
+  <Feed />,
+  document.getElementById('fb-feed')
+);
+
 class Feed extends React.Component {
   render() {
     return (
